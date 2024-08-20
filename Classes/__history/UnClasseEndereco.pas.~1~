@@ -1,0 +1,77 @@
+unit UnClasseEndereco;
+
+interface
+
+uses UnClasseTipoLogradouro, UnClasseCidade, UnClasseCEP;
+
+type
+
+  TEndereco = class(TObject)
+  private
+    oTipoLogradouro: TTipoLogradouro;
+    sLogradouro: String;
+    sComplemento: String;
+    sNumero: String;
+    sBairro: String;
+    oCEP: TCEP;
+    oCidade: TCidade;
+    sPontoDeRef: String;
+
+  public
+
+    property TipoLogradouro: TTipoLogradouro
+      read oTipoLogradouro
+      write setTipoLogradouro;
+    property Logradouro: String
+      read sLogradouro
+      write setLogradouro;
+    property Complemento: String
+      read sComplemento
+      write setComplemento;
+    property Numero: String
+      read sNumero
+      write setNumero;
+    property Bairro: String
+      read sBairro
+      write setBairro;
+    property CEP: TCEP
+      read oCEP
+      write setCEP;
+    property Cidade: TCidade
+      read oCidade
+      write setCidade;
+    property PontoDeRef: String
+      read sPontoDeRef
+      write setPontoDeRef;
+
+    constructor Create;
+    destructor Destroy; Reintroduce;
+
+  protected
+
+  end;
+
+implementation
+
+{ TEndereco }
+
+constructor TEndereco.Create;
+begin
+  inherited;
+  Self.oTipoLogradouro:= TTipoLogradouro.Create();
+  Self.sLogradouro:= '';
+  Self.sComplemento:= '';
+  Self.sNumero:= '';
+  Self.sBairro:= '';
+  Self.oCEP:= TCEP.Create();
+  Self.oCidade:= TCidade.Create();
+  Self.sPontoDeRef:= '';
+end;
+
+destructor TEndereco.Destroy;
+begin
+  inherited;
+end;
+
+end.
+

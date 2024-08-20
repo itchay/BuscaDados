@@ -1,0 +1,92 @@
+unit UnClasseCidade;
+
+interface
+
+uses
+  SysUtils;
+
+type
+
+  TCidade = class(TObject)
+  private
+    iCodigo: Integer;
+    sUF: string;
+    sNome: String;
+
+  public
+    property Codigo: Integer
+      read iCodigo
+      write setCodigo;
+    property Nome: String
+      read sNome
+      write setNome;
+    property Estado: string
+      read sUF
+      write sUF;
+
+    constructor Create;
+    destructor Destroy; Reintroduce;
+
+  protected
+
+  end;
+
+implementation
+
+uses UnDM_Cadastro, SqlExpr, DB;
+
+{ TCidade }
+
+procedure TCidade.carregar;
+begin
+  with DM_Cadastro.Verifica do
+  begin
+    Close();
+    SQL.Text:= ' SELECT m.municipio,' +
+               '        m.cod_uf_ibge,' +
+               '        u.uf,' +
+               '        u.sigla' +
+               ' FROM municipios_ibge m' +
+               ' INNER JOIN uf_ibge u ON u.cod_uf = m.cod_uf_ibge' +
+               ' WHERE m.cod_municipio_ibge = ' + QuotedStr(IntToStr(Self.iCodigo));
+    Open();
+    if not IsEmpty then
+    begin
+      Self.sNome:= FieldByName('municipio').AsString;
+      Self.oEstado.Codigo:= FieldByName('cod_uf_ibge').AsInteger;
+      Self.oEstado.Nome:= FieldByName('uf').AsString;
+      Self.oEstado.Sigla:= FieldByName('sigla').AsString;
+    end;
+  end;
+end;
+
+constructor TCidade.Create;
+begin
+  inherited;
+  Self.iCodigo:= 0;
+  Self.sNome:= '';
+  Self.oEstado:= TEstado.Create();
+end;
+
+destructor TCidade.Destroy;
+begin
+  inherited;
+end;
+
+procedure TCidade.setCodigo(lCodigo: Integer);
+begin
+  Self.iCodigo:= lCodigo;
+end;
+
+procedure TCidade.setEstado(o: TEstado);
+begin
+  Self.oEstado:= o;
+end;
+
+procedure TCidade.setNome(lNome: String);
+begin
+  Self.sNome:= lNome;
+end;
+
+end.
+

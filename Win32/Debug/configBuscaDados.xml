@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ConfigBuscaDados>
+	<BuscaDados>
+		<CertificadoDigital>
+			<Nome>C=BR, O=ICP-Brasil, S=PB, L=JO?O PESSOA, OU=08719007000170, OU=Secretaria da Receita Federal do Brasil - RFB, OU=RFB e-CNPJ A1, OU=presencial, CN=TACIANO VIEIRA VELOSO 03253998401:32889329000141</Nome>
+			<NumeroSerie>642ABFC2E1969BC7</NumeroSerie>
+		</CertificadoDigital>
+	</BuscaDados>
+</ConfigBuscaDados>

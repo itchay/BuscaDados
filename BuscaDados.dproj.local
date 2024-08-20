@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/14 14:30:36.000.104,=C:\Users\Tchaikovsky\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/14 14:48:25.000.521,C:\Programacao\Windows\BuscaCEP\UnFrmPrincipal.dfm=C:\Users\Tchaikovsky\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/01/14 14:48:25.000.521,C:\Programacao\Windows\BuscaCEP\UnFrmPrincipal.pas=C:\Users\Tchaikovsky\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/14 14:51:19.000.144,C:\Programacao\Windows\BuscaCEP\BuscaCEP.dproj=C:\Users\Tchaikovsky\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/01/17 15:01:17.000.966,=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/17 15:30:21.000.167,=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/17 15:31:08.000.031,=C:\Programacao\Windows\BuscaCEP\Unit2.pas</Transaction>
+    <Transaction>2022/01/17 15:31:33.000.508,C:\Programacao\Windows\BuscaCEP\Unit2.pas=C:\Programacao\Windows\BuscaCEP\Classes\UnClasseTipoLogradouro.pas</Transaction>
+    <Transaction>2022/01/17 15:31:46.000.440,C:\Programacao\Windows\BuscaCEP\Unit1.pas=C:\Programacao\Windows\BuscaCEP\Classes\UnClasseEndereco.pas</Transaction>
+    <Transaction>2022/01/17 15:32:06.000.035,=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/17 15:32:16.000.333,C:\Programacao\Windows\BuscaCEP\Unit1.pas=C:\Programacao\Windows\BuscaCEP\Classes\UnClasseCEP.pas</Transaction>
+    <Transaction>2022/01/17 15:32:35.000.284,=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/17 15:33:36.000.505,C:\Programacao\Windows\BuscaCEP\Unit1.pas=C:\Programacao\Windows\BuscaCEP\Classes\UnClasseCidade.pas</Transaction>
+    <Transaction>2022/01/18 11:03:54.000.990,=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/18 11:04:04.000.197,C:\Programacao\Windows\BuscaCEP\Classes\UnClasseVersao.pas=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/19 14:19:23.000.316,=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/19 14:42:05.000.117,C:\Programacao\Windows\BuscaCEP\UnFrmBuscaCEP.pas=C:\Programacao\Windows\BuscaCEP\UnFrmPrincipal.pas</Transaction>
+    <Transaction>2022/01/19 14:42:05.000.117,C:\Programacao\Windows\BuscaCEP\UnFrmBuscaCEP.dfm=C:\Programacao\Windows\BuscaCEP\UnFrmPrincipal.dfm</Transaction>
+    <Transaction>2022/01/19 14:42:28.000.270,C:\Programacao\Windows\BuscaCEP\UnFrmBuscaCNPJ.pas=C:\Programacao\Windows\BuscaCEP\Unit1.pas</Transaction>
+    <Transaction>2022/01/19 14:42:28.000.270,C:\Programacao\Windows\BuscaCEP\UnFrmBuscaCNPJ.dfm=C:\Programacao\Windows\BuscaCEP\Unit1.dfm</Transaction>
+    <Transaction>2022/01/19 15:39:10.000.852,C:\Programacao\Windows\BuscaDados\BuscaDados.dproj=C:\Programacao\Windows\BuscaCEP\BuscaCEP.dproj</Transaction>
+    <Transaction>2022/01/24 11:47:02.000.985,=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/01/24 12:02:41.000.996,=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/01/24 13:16:34.000.138,C:\Programacao\Windows\BuscaDados\Unit1.dfm=C:\Programacao\Windows\BuscaDados\BuscaCNPJ\UnFrmConsultaCaptchaCNPJ.dfm</Transaction>
+    <Transaction>2022/01/24 13:16:34.000.138,C:\Programacao\Windows\BuscaDados\Unit1.pas=C:\Programacao\Windows\BuscaDados\BuscaCNPJ\UnFrmConsultaCaptchaCNPJ.pas</Transaction>
+    <Transaction>2022/01/24 13:18:41.000.137,C:\Programacao\Windows\BuscaCEP\UnFrmBuscaCEP.pas=</Transaction>
+    <Transaction>2022/01/24 13:19:00.000.968,=C:\Programacao\Windows\BuscaDados\BuscaCEP\UnFrmBuscaCEP.pas</Transaction>
+    <Transaction>2022/01/24 16:30:53.000.005,=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/01/24 16:33:47.000.319,C:\Programacao\Windows\BuscaDados\Classes\UnClasseUtils.pas=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/02/02 09:54:08.000.461,=C:\Programacao\Windows\BuscaDados\JSON\uDMConsultaCNPJ.pas</Transaction>
+    <Transaction>2022/02/02 11:52:00.910,=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/02/02 11:52:44.074,C:\Programacao\Windows\BuscaDados\Classes\UnClasseUtils2.pas=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/02/02 11:55:42.587,C:\Programacao\Windows\BuscaDados\Classes\UnClasseUtils2.pas=</Transaction>
+    <Transaction>2022/02/02 11:58:01.371,=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/02/02 11:59:26.628,=C:\Programacao\Windows\BuscaDados\Unit2.pas</Transaction>
+    <Transaction>2022/02/02 11:59:56.843,C:\Programacao\Windows\BuscaDados\Classes\NFe\UnClasseNFEConfig.pas=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/02/02 12:00:16.108,C:\Programacao\Windows\BuscaDados\Classes\NFe\UnClasseCampoConfig.pas=C:\Programacao\Windows\BuscaDados\Unit2.pas</Transaction>
+    <Transaction>2022/02/02 12:00:31.180,=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+    <Transaction>2022/02/02 12:00:40.855,C:\Programacao\Windows\BuscaDados\Classes\NFe\UnClasseCertificadoDigitalConfig.pas=C:\Programacao\Windows\BuscaDados\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
